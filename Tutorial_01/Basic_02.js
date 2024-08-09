@@ -1,0 +1,17 @@
+// ? Props in React js
+
+// ? Props makes the componet reuseable.
+
+// ? Code for props
+
+import React from 'react'
+
+function Card(){
+    return (
+        <div>
+            Card
+        </div>
+    )
+}
+
+export default Card
