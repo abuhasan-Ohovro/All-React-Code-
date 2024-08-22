@@ -1,52 +1,11 @@
-import { useState } from "react";
+// import React from 'react'
 
 function App() {
-  const [color, setColor] = useState("brown");
-
- 
   return (
-    <>
-      <div
-        className="w-full h-screen duration-200 "
-        style={{ backgroundColor: color }}
-      >
-        <div className="fixed flex flex-wrap justify-center bottom-12 inset-x-0 px-2 ">
-          <div className="flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-3xl">
-            <button
-              onClick={() => setColor('green')}
-              className="outline-none px-4 py-1 rounded-full text-white shadow-lg bg-green-600 font-semibold"
-            >
-              Green
-            </button>
-            <button
-              onClick={() => setColor('black')}
-              className="outline-none px-4 py-1 rounded-full text-white shadow-lg bg-black font-semibold"
-            >
-              Black
-            </button>
-            <button
-              onClick={() => setColor("orange")}
-              className="outline-none px-4 py-1 rounded-full text-white shadow-lg bg-orange-600 font-semibold"
-            >
-              Orange
-            </button>
-            <button
-              onClick={() => setColor('pink')}
-              className="outline-none px-4 py-1 rounded-full text-white shadow-lg bg-pink-700  font-semibold"
-            >
-              Pink
-            </button>
-            <button
-              onClick={() => setColor('purple')}
-              className="outline-none px-4 py-1 rounded-full text-white shadow-lg bg-purple-800 font-semibold"
-            >
-              Purple
-            </button>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+    <div  className='w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat ' style={{backgroundImage : ``}}>
+      
+    </div>
+  )
 }
 
-export default App;
+export default App
